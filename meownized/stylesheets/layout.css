@@ -9,11 +9,7 @@ a {
 
 body {
   min-width: 768px;
-  font-family: 'PT Sans', sans-serif;;
-  /*background-image: url(dc-online-media-mockup.jpg);
-  background-size: 800px 20624px;
-  background-position: top center;
-  background-repeat: no-repeat;*/
+  font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -31,5 +27,5 @@ body.landing .menubar {
   min-width: 768px;
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
-
+  z-index: 1;
 }
