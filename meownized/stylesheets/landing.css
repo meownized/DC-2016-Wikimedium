@@ -1,3 +1,13 @@
+body.landing.bg{
+  background-image: url(../images/index_mockup.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+body.landing * {
+  transition: all .3s ease;
+}
+
 .landingWrapper {
   position: relative;
   display: flex;
@@ -81,10 +91,10 @@
 }
 
 #mockup1 {
-  width: 701px;
+  width: 732px;
   height: 660px;
-  top: 117px;
-  right: -85px;
+  top: 115px;
+  right: -116px;
   background-image: url(../images/landing/landing-mockup-1.jpg);
 }
 
@@ -100,7 +110,12 @@
 
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1460px) {
+
+  body.landing.bg {
+    background-image: url(../images/index_mockup_ipad.png);
+  }
+
   .landingWrapper {
     width: 100%;
   }
@@ -128,8 +143,8 @@
   }
 
   .mainSection section {
-    top: 104px;
-    width: 400px;
+    top: 105px;
+    width: 410px;
   }
 
   .mainSection.left section {
@@ -147,7 +162,28 @@
   }
 
   .mainSection.left section figure {
-    
+    margin-left: -40px;
+  }
+
+  .mainSection.right section figure {
+    margin-left: 303px;
+  }
+
+  #mockup1 {
+    width: 521px;
+    height: 470px;
+    right: 0px;
+  }
+
+  #mockup2 {
+    width: 380px;
+    height: 478px;
+    top: 70px;
+    left:148px;
+  }
+
+  #mockup3 {
+
   }
 
 }
