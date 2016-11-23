@@ -1,4 +1,4 @@
-body.landing.bg{
+body.landing.bg {
   background-image: url(../images/index_mockup.png);
   background-repeat: no-repeat;
   background-position: top center;
@@ -53,6 +53,7 @@ body.landing * {
 }
 
 .mainSection.center section {
+  top: 182px;
   width: 100%;
 }
 
@@ -107,7 +108,13 @@ body.landing * {
 }
 
 #mockup3 {
-
+  width: 1348px;
+  height: 779px;
+  top: 97px;
+  right: -732px;
+  background-image: url(../images/landing/landing-mockup-3.jpg);
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
 }
 
 @media screen and (max-width: 1460px) {
@@ -121,7 +128,7 @@ body.landing * {
   }
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1180px) {  /*  МЕДИАЗАПРОС  */
   .landingWrapper {
     width: 100%;
   }
@@ -142,6 +149,11 @@ body.landing * {
     margin-top: 18px;
   }
 
+  .mainSection.center h2 {
+    font-size: 28px;
+    line-height: 37px;
+  }
+
   .mainSection section {
     top: 105px;
     width: 410px;
@@ -153,6 +165,10 @@ body.landing * {
 
   .mainSection.right section {
     right: 190px;
+  }
+
+  .mainSection.center section {
+    top: 132px;
   }
 
   .mainSection section figure {
@@ -169,6 +185,15 @@ body.landing * {
     margin-left: 303px;
   }
 
+  .mainSection.center section nav {
+    margin-top: 100px;
+    font-size: 0;
+  }
+
+  .mainSection.center section nav a {
+    margin: 0 20px;
+  }
+
   #mockup1 {
     width: 521px;
     height: 470px;
@@ -183,7 +208,10 @@ body.landing * {
   }
 
   #mockup3 {
-
+    width: 960px;
+    height: 555px;
+    top: 97px;
+    right: -444px;
   }
 
 }
