@@ -72,9 +72,9 @@ body.landing * {
 }
 
 .mainSection section figure {
-  margin: 100px 0 0 -60px;
   width: 210px;
   height: 20px;
+  margin-top: 100px;
   background-image: url(../images/landing/pattern.svg);
 }
 
@@ -149,9 +149,6 @@ body.landing * {
 }
 
 @media screen and (max-width: 1180px) {  /*  МЕДИАЗАПРОС  */
-  .landingWrapper {
-    width: 100%;
-  }
 
   .mainSection {
     width: 1180px;
@@ -222,6 +219,7 @@ body.landing * {
   }
 
   #mockup1 {
+    top: 85px;
     width: 521px;
     height: 470px;
     right: 0px;
@@ -239,6 +237,102 @@ body.landing * {
     height: 555px;
     top: 97px;
     right: -444px;
+  }
+}
+
+@media screen and (max-width: 910px) {  /*  МЕДИАЗАПРОС ipad portray  */
+  body.landing.bg {
+    background-image: url(../images/index_mockup_ipad_portrait.png);
+  }
+
+  .mainSection {
+    width: 910px;
+    height: 1024px;
+  }
+
+  .mainSection h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .mainSection p {
+    margin-top: 21px;
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .mainSection.center h2 {
+    font-size: 28px;
+    line-height: 37px;
+  }
+
+  .mainSection.center p {
+    margin-top: 21px;
+  }
+
+  .mainSection section {
+    top: 100px;
+    width: 580px;
+  }
+
+  .mainSection.left section,
+  .mainSection.right section {
+    left: 165px;
+  }
+
+  .mainSection.center section {
+    top: 132px;
+  }
+
+
+  .mainSection section figure {
+    width: 210px;
+    height: 20px;
+    margin-top: 100px;
+    background-image: url(../images/landing/pattern.svg);
+  }
+
+  .mainSection.left section figure,
+  .mainSection.right section figure {
+    margin-left: -60px;
+  }
+
+  .mainSection:nth-child(3) section figure {
+    margin-left: 430px;
+  }
+
+  .mainSection.center section nav {
+    margin-top: 50px;
+  }
+
+  .mainSection.center section nav a {
+    margin: 0 6px;
+  }
+
+  .mainSection.center footer p {
+    font-size: 12px;
+  }
+
+  #mockup1 {
+    top: 400px;
+    right: -34px;
+    width: 621px;
+    height: 560px;
+  }
+
+  #mockup2 {
+    top: 440px;
+    left: 333px;
+    width: 464px;
+    height: 584px;
+  }
+
+  #mockup3 {
+    top: auto;
+    bottom: -100px;
+    right: -30px;
+    width: 836px;
+    height: 483px;
   }
 
 }
